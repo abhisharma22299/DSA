@@ -1,0 +1,36 @@
+package SortingTechnique;
+
+public class SelectionSort {
+	public static void main(String args[]) {
+		
+		// program for selection sort 
+		// in this sort only one iteration perform per iteration of 
+		// inner loop 
+		// creating object of class printArray
+				PrintArray pa=new PrintArray();
+				 int[] arr= {8,7,3,1,2};
+				 pa.arrayprint(arr);
+				 System.out.println();
+		
+		for(int i=0;i<arr.length;i++) {
+			int smallestElement=arr[i];
+			int tempIndex=0;
+			int count=0;
+			for(int j=1;j<arr.length;j++) {
+				
+				if(arr[j]<smallestElement) {
+					smallestElement=arr[j];
+				     tempIndex=j;
+				     count++;
+				}
+				if(count >0) {
+					int tempVariable=arr[i];
+					arr[i]=arr[tempIndex];
+					arr[tempIndex]=tempVariable;
+				}
+			}
+			
+		}
+		
+	}
+}

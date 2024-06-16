@@ -1,0 +1,17 @@
+package SringWithRecursion;
+
+public class PrintSubStringWithRecursion {
+	public static void printAllSubSequence(String str ,int index,String newString) {
+		char currentChar=str.charAt(index);
+		// to be 
+		printAllSubSequence(str, index, newString+currentChar);
+		// or not to be
+		printAllSubSequence(str, index, newString);
+	}
+	
+	// Main Function
+	public static void main(String[] args) {
+		
+		printAllSubSequence("abc", 0, null);
+	}
+}

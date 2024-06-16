@@ -1,0 +1,18 @@
+package SortingTechnique;
+
+public class SelectionSort {
+	public static void main(String args[]) {
+		
+		// program for selection sort 
+		// in this sort only one iteration perform per iteration of 
+		// inner loop 
+		// creating object of class printArray
+				PrintArray pa=new PrintArray();
+				 int[] arr= {8,7,3,1,2};
+				 pa.arrayprint(arr);
+				 System.out.println();
+		
+		
+		
+	}
+}

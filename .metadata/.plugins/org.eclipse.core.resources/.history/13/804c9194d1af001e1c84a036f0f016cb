@@ -1,0 +1,7 @@
+package SringWithRecursion;
+
+public class PrintSubStringWithRecursion {
+	public static StringBuilder Xlast(String s,int index) {
+		
+	}
+}

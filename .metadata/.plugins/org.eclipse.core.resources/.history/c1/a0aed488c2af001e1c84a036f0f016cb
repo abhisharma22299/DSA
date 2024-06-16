@@ -1,0 +1,30 @@
+package SringWithRecursion;
+
+public class RemoveDuplicatesInAString {
+	
+	public static void RemoveDuplicate(String str) {
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		/*
+		 
+		  'a'-'a'=0;
+		  'b'-'a'=1;
+		  'c'-'a'=2;
+		  .
+		  .
+		  'Z-'a'=25;
+		  
+		 */
+	
+	
+	StringBuilder sb=new StringBuilder("assaasudhksudh");
+	System.out.println(sb);
+	
+	
+	
+	
+	}
+}

@@ -1,0 +1,44 @@
+package SringWithRecursion;
+
+public class RemoveDuplicatesInAString {
+	private static void removeDuplicatesInString(StringBuilder sb,boolean arr[],int index) {
+		if(index==sb.length()) {
+			System.out.println(sb);
+			return;
+		}
+		int ad=sb.charAt(index)-'a';
+		if(arr[ad]==true) {
+			sb.deleteCharAt(index);
+		}
+	
+		
+		removeDuplicatesInString(sb,arr,index+1);
+		
+	}
+	
+	public static void main(String[] args) {
+		/*
+		 
+		  'a'-'a'=0;
+		  'b'-'a'=1;
+		  'c'-'a'=2;
+		  .
+		  .
+		  'Z-'a'=25;
+		  
+		 */
+	
+	
+	StringBuilder sb=new StringBuilder("saas");
+
+	boolean arr[]= {false,false,false,false,false,false,false,false,false,false,
+			false,false,false,false,false,false,false,false,false,false,
+			false,false,false,false,false,false};
+	removeDuplicatesInString(sb,arr,0);
+	
+	
+	
+	}
+
+	
+}

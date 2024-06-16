@@ -1,0 +1,37 @@
+package logic;
+class a {
+	public static void as() {
+		System.out.println("base");
+	}
+
+
+public void aa() {
+		System.out.println("aa base");
+	}
+
+
+
+}
+
+
+
+public class n extends a  {
+	
+		public static void as() {
+			System.out.println("as chlid");
+		}
+		
+
+		public void aa() {
+			System.out.println("aa child");
+		}
+
+		
+		public static void main(String[] args) {
+	
+	n nn=new n();
+	nn.aa();
+as();
+		
+		}
+}

@@ -1,0 +1,29 @@
+package TwoDArray;
+
+public class PrefixSum {
+
+	
+	
+	public static void main(String[] args) {
+int arr[][]= {{1,1,1,1},
+			  {1,1,1,1},
+			  {1,1,1,1},
+			  {1,1,1,1}};
+
+
+int firstStar,secondStart,firstEnd,secondEnd;
+firstStar=2;
+firstEnd=1;
+secondEnd=3;
+secondStart=3;
+for(int i=0;i<arr.length;i++) {	
+	for(int j=0;j<arr[0].length;j++) {
+		
+	}
+}
+	
+	
+	
+	
+	}
+}
