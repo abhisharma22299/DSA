@@ -6,8 +6,10 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="Item 4"/>
+		<item key="selection" value="exit"/>
 		<list key="findhistory">
+			<item value="exit"/>
+			<item value="print"/>
 			<item value="package Recursion;"/>
 			<item value="Item 4"/>
 			<item value="abhishek"/>
